@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi — Developer, Designer, Creator</title>
+    <meta name="description" content="Personal website of Rishi. Developer, Designer, Creator.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Rishi</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span>Developer.</span>
+                <span>Designer.</span>
+                <span>Creator.</span>
+            </h1>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <p class="about-text">
+                I design and build digital experiences that are clean, intuitive, and purposeful. 
+                I believe in simplicity — removing the unnecessary so the necessary can speak.
+            </p>
+            <p class="about-text">
+                With a passion for both code and design, I bridge the gap between functionality 
+                and aesthetics. Every project is an opportunity to create something meaningful.
+            </p>
+            <div class="skills">
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>Python</span>
+                <span>Node.js</span>
+                <span>CSS</span>
+                <span>Git</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+
+            <article class="project">
+                <div class="project-image">
+                    <img src="images/project1.jpg" alt="Project One screenshot" loading="lazy">
+                </div>
+                <h3 class="project-title">Project One</h3>
+                <p class="project-description">A minimal task management app built with React and Node.js.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </article>
+
+            <div class="project-divider"></div>
+
+            <article class="project">
+                <div class="project-image">
+                    <img src="images/project2.jpg" alt="Project Two screenshot" loading="lazy">
+                </div>
+                <h3 class="project-title">Project Two</h3>
+                <p class="project-description">An e-commerce platform with a focus on user experience.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </article>
+
+            <div class="project-divider"></div>
+
+            <article class="project">
+                <div class="project-image">
+                    <img src="images/project3.jpg" alt="Project Three screenshot" loading="lazy">
+                </div>
+                <h3 class="project-title">Project Three</h3>
+                <p class="project-description">A data visualization dashboard for analytics.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in touch</h2>
+            
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+                    <span class="error-message"></span>
+                </div>
+                <button type="submit" class="submit-btn">Send →</button>
+            </form>
+
+            <div id="success-message" class="success-message">
+                Thanks for reaching out. I'll get back to you soon.
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:hello@example.com">Email</a>
+            </div>
+            <p class="copyright">© 2025 Rishi</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
