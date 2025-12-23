@@ -3,138 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rishi — Developer, Designer, Creator</title>
-    <meta name="description" content="Personal website of Rishi. Developer, Designer, Creator.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>~*~ RiShI's HoMePaGe ~*~</title>
+    <meta name="description" content="Welcome to Rishi's totally radical homepage on the World Wide Web!">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="#hero" class="nav-logo">Rishi</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">
-                <span>Developer.</span>
-                <span>Designer.</span>
-                <span>Creator.</span>
+    <!-- Stars background handled by CSS -->
+    
+    <div class="container">
+        <!-- Header with animated text -->
+        <header class="header">
+            <div class="construction">
+                🚧 UNDER CONSTRUCTION 🚧
+            </div>
+            <h1 class="main-title">
+                <span class="sparkle">★</span>
+                Welcome to Rishi's Homepage
+                <span class="sparkle">★</span>
             </h1>
-        </div>
-    </section>
+            <marquee behavior="scroll" direction="left" class="marquee">
+                ★·.·´¯`·.·★ Thanks for visiting my corner of the Internet! ★·.·´¯`·.·★ You are visitor #<span id="visitor-count">1,337</span> ★·.·´¯`·.·★ Last updated: December 2025 ★·.·´¯`·.·★
+            </marquee>
+        </header>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About</h2>
-            <p class="about-text">
-                I design and build digital experiences that are clean, intuitive, and purposeful. 
-                I believe in simplicity — removing the unnecessary so the necessary can speak.
-            </p>
-            <p class="about-text">
-                With a passion for both code and design, I bridge the gap between functionality 
-                and aesthetics. Every project is an opportunity to create something meaningful.
-            </p>
-            <div class="skills">
-                <span>JavaScript</span>
-                <span>React</span>
-                <span>Python</span>
-                <span>Node.js</span>
-                <span>CSS</span>
-                <span>Git</span>
-            </div>
-        </div>
-    </section>
+        <!-- Navigation -->
+        <nav class="nav">
+            <table class="nav-table" border="2" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td><a href="#about">[ About Me ]</a></td>
+                    <td><a href="#projects">[ My Projects ]</a></td>
+                    <td><a href="#contact">[ Contact ]</a></td>
+                    <td><a href="#guestbook">[ Guestbook ]</a></td>
+                </tr>
+            </table>
+        </nav>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
+        <hr class="fancy-hr">
 
-            <article class="project">
-                <div class="project-image">
-                    <img src="images/project1.jpg" alt="Project One screenshot" loading="lazy">
-                </div>
-                <h3 class="project-title">Project One</h3>
-                <p class="project-description">A minimal task management app built with React and Node.js.</p>
-                <a href="#" class="project-link">View Project →</a>
-            </article>
-
-            <div class="project-divider"></div>
-
-            <article class="project">
-                <div class="project-image">
-                    <img src="images/project2.jpg" alt="Project Two screenshot" loading="lazy">
-                </div>
-                <h3 class="project-title">Project Two</h3>
-                <p class="project-description">An e-commerce platform with a focus on user experience.</p>
-                <a href="#" class="project-link">View Project →</a>
-            </article>
-
-            <div class="project-divider"></div>
-
-            <article class="project">
-                <div class="project-image">
-                    <img src="images/project3.jpg" alt="Project Three screenshot" loading="lazy">
-                </div>
-                <h3 class="project-title">Project Three</h3>
-                <p class="project-description">A data visualization dashboard for analytics.</p>
-                <a href="#" class="project-link">View Project →</a>
-            </article>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get in touch</h2>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">
+                <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/arwblink.gif" alt="arrow" class="icon">
+                About Me
+                <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/arwblink.gif" alt="arrow" class="icon">
+            </h2>
             
-            <form id="contact-form" class="contact-form">
-                <div class="form-group">
-                    <input type="text" id="name" name="name" placeholder="Name" required>
-                    <span class="error-message"></span>
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-                    <span class="error-message"></span>
-                </div>
-                <div class="form-group">
-                    <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
-                    <span class="error-message"></span>
-                </div>
-                <button type="submit" class="submit-btn">Send →</button>
-            </form>
+            <table border="3" cellpadding="15" cellspacing="0" class="about-table">
+                <tr>
+                    <td class="about-content">
+                        <p><font color="#00ff00" size="+1"><b>H3LL0 W0RLD!</b></font></p>
+                        <p>
+                            My name is <blink><b>RISHI</b></blink> and I am a <font color="#ff00ff">Developer</font>, 
+                            <font color="#00ffff">Designer</font>, and <font color="#ffff00">Creator</font>!!!
+                        </p>
+                        <p>
+                            I design and build digital experiences that are clean, intuitive, and purposeful. 
+                            I believe in simplicity — removing the unnecessary so the necessary can speak.
+                        </p>
+                        <p>
+                            <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/compbar.gif" alt="computer" class="divider-gif">
+                        </p>
+                        <p><b>My Skills:</b></p>
+                        <ul class="skills-list">
+                            <li>🌟 JavaScript</li>
+                            <li>🌟 React</li>
+                            <li>🌟 Python</li>
+                            <li>🌟 Node.js</li>
+                            <li>🌟 CSS</li>
+                            <li>🌟 Git</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
 
-            <div id="success-message" class="success-message">
-                Thanks for reaching out. I'll get back to you soon.
-            </div>
-        </div>
-    </section>
+        <hr class="fancy-hr">
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-links">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="mailto:hello@example.com">Email</a>
-            </div>
-            <p class="copyright">© 2025 Rishi</p>
-        </div>
-    </footer>
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">
+                <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/arwblink.gif" alt="arrow" class="icon">
+                My Projects
+                <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/arwblink.gif" alt="arrow" class="icon">
+            </h2>
+
+            <table border="3" cellpadding="10" cellspacing="5" class="projects-table">
+                <tr>
+                    <td class="project-cell">
+                        <h3>💾 Project One</h3>
+                        <p>A minimal task management app built with React and Node.js.</p>
+                        <p><a href="#">>> Click Here to View!! <<</a></p>
+                        <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/new.gif" alt="NEW!" class="new-gif">
+                    </td>
+                    <td class="project-cell">
+                        <h3>💾 Project Two</h3>
+                        <p>An e-commerce platform with a focus on user experience.</p>
+                        <p><a href="#">>> Click Here to View!! <<</a></p>
+                        <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/hot.gif" alt="HOT!" class="hot-gif">
+                    </td>
+                    <td class="project-cell">
+                        <h3>💾 Project Three</h3>
+                        <p>A data visualization dashboard for analytics.</p>
+                        <p><a href="#">>> Click Here to View!! <<</a></p>
+                        <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/cool.gif" alt="COOL!" class="cool-gif">
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr class="fancy-hr">
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">
+                <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/arwblink.gif" alt="arrow" class="icon">
+                Contact Me
+                <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/arwblink.gif" alt="arrow" class="icon">
+            </h2>
+
+            <table border="3" cellpadding="20" cellspacing="0" class="contact-table">
+                <tr>
+                    <td>
+                        <center>
+                            <p><font size="+1">📧 Send me an E-Mail! 📧</font></p>
+                            <form id="contact-form" class="contact-form">
+                                <p>
+                                    <font color="#00ff00">Your Name:</font><br>
+                                    <input type="text" id="name" name="name" size="40" required>
+                                </p>
+                                <p>
+                                    <font color="#00ff00">Your E-Mail:</font><br>
+                                    <input type="email" id="email" name="email" size="40" required>
+                                </p>
+                                <p>
+                                    <font color="#00ff00">Your Message:</font><br>
+                                    <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                                </p>
+                                <p>
+                                    <input type="submit" value=">>> SEND MESSAGE <<<" class="submit-btn">
+                                </p>
+                            </form>
+                            <div id="success-message" class="success-message">
+                                <blink>✉️ MESSAGE SENT!!! ✉️</blink><br>
+                                Thanks for writing! I'll get back to you ASAP!
+                            </div>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr class="fancy-hr">
+
+        <!-- Guestbook Section -->
+        <section id="guestbook" class="section">
+            <h2 class="section-title">
+                <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/arwblink.gif" alt="arrow" class="icon">
+                Guestbook
+                <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/arwblink.gif" alt="arrow" class="icon">
+            </h2>
+            <center>
+                <p><a href="#" class="guestbook-link">📖 Sign My Guestbook! 📖</a></p>
+                <p><a href="#" class="guestbook-link">📖 View My Guestbook! 📖</a></p>
+            </center>
+        </section>
+
+        <hr class="fancy-hr">
+
+        <!-- Footer -->
+        <footer class="footer">
+            <center>
+                <p>
+                    <a href="https://github.com" target="_blank">[GitHub]</a> | 
+                    <a href="https://linkedin.com" target="_blank">[LinkedIn]</a> | 
+                    <a href="mailto:hello@example.com">[E-Mail]</a>
+                </p>
+                <p>
+                    <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/netscape.gif" alt="Best viewed with Netscape" class="badge">
+                    <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/ie.gif" alt="Best viewed with IE" class="badge">
+                </p>
+                <p class="copyright">
+                    © 2025 Rishi's Homepage<br>
+                    <font size="-1">Best viewed at 800x600 resolution</font>
+                </p>
+                <p>
+                    <img src="https://web.archive.org/web/20091027065803im_/http://geocities.com/SoHo/7373/email.gif" alt="email" class="email-gif">
+                </p>
+            </center>
+        </footer>
+    </div>
 
     <script src="main.js"></script>
 </body>
 </html>
-
